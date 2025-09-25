@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PathKey • Under Construction</title>
+  <style>
+    :root{--bg:#000814;--bg2:#031a12;--gold:#cca242;--ink:#e8dec7;--green:#042316}
+    html,body{height:100%}
+    body{
+      margin:0; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:18px;
+      background: radial-gradient(circle at center, var(--bg) 0%, var(--bg2) 60%, #000 100%);
+      color:var(--ink); font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,Helvetica,sans-serif; text-align:center;
+    }
+    h1{margin:0; font-size:2.2rem; color:var(--gold); letter-spacing:.5px}
+    p{margin:0; opacity:.9}
+    a.btn{
+      display:inline-block; padding:.7rem 1.2rem; border-radius:12px; text-decoration:none; font-weight:700;
+      background:var(--green); color:var(--ink); border:1px solid rgba(204,162,66,.35);
+    }
+    small{opacity:.7}
+  </style>
+</head>
+<body>
+  <h1>🔑 PathKey</h1>
+  <p>Our digital key is forging… <strong>Under Construction</strong></p>
+  <!-- Replace the href with your real app link -->
+  <a class="btn" href="http://www.mypathkey.com/"target="blank rel="noopener">Enter the App</a>
+  <small>© <span id="y"></span> PathKey</small>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
